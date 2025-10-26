@@ -1,0 +1,25 @@
+.updown {
+  position: fixed;
+  width: 2%;
+  left: 98%;
+  top: 90%;
+  text-align: center;
+}
+
+.scrollup {
+  height: 15px;
+}
+.scrollup2 {
+  height: 25px;
+  text-align: center;
+}
+.down {
+  display: flex;
+  justify-content: center;
+  opacity: 0.3;
+}
+.up {
+  display: flex;
+  justify-content: center;
+  opacity: 0.3;
+}

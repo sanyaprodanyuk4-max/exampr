@@ -1,0 +1,308 @@
+.section5 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.sec5clients {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  align-items: center;
+  font-family: "Pacifico";
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(230, 92, 0);
+}
+.sec5lorem {
+  font-family: "Pacifico";
+
+  height: 10%;
+  text-align: center;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  align-items: center;
+}
+.sec5rewiev {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.client1 {
+  width: 30%;
+  height: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(145, 155, 155, 0.979);
+  border-radius: 25px;
+  align-items: center;
+  perspective: 800px;
+  perspective-origin: center;
+}
+.client1text {
+  box-shadow: 10px 20px 35px 5px black;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  height: 50%;
+  width: 80%;
+  border: 1px solid black;
+  font-size: 15px;
+  font-weight: 400;
+}
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.client1text:hover {
+  position: relative;
+  animation: rotate 3s infinite;
+}
+.client2text:hover {
+  position: relative;
+  animation: rotate 3s infinite;
+}
+.client2 {
+  background-color: rgba(145, 155, 155, 0.979);
+  perspective: 800px;
+  perspective-origin: center;
+  width: 30%;
+  height: 90%;
+  border: 1px solid black;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.client2img {
+  width: 20%;
+  height: 25%;
+  border-radius: 70px;
+  border: 1px solid black;
+  background-size: cover;
+  background-image: url("section5clients/ai-generated-9024469_640\ \(1\).jpg");
+}
+.client2text {
+  box-shadow: 10px 20px 35px 5px black;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  height: 50%;
+  width: 80%;
+  border: 1px solid black;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.client1img {
+  width: 20%;
+  height: 25%;
+  border-radius: 100px;
+  border: 1px solid black;
+  background-image: url("section5clients/woman-8828366_640.jpg");
+  background-size: cover;
+  background-position-x: -30px;
+  background-repeat: no-repeat;
+}
+
+.stars {
+  width: 80%;
+  height: 20%;
+}
+span {
+  color: rgb(250, 245, 245);
+}
+.sec5icons {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  width: 20%;
+}
+.buttons :nth-child(1) {
+  background-color: red;
+  margin: 5px;
+}
+.buttons :nth-child(2) {
+  background-color: red;
+  margin: 5px;
+}
+.buttons :nth-child(3) {
+  background-color: rgb(17, 16, 16);
+  margin: 5px;
+}
+.buttons {
+  width: 20%;
+  justify-content: center;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+}
+.icons {
+  background-color: rgb(247, 247, 247);
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.sec5footer {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactbtn {
+  height: 80%;
+  display: flex;
+  width: 10%;
+  justify-content: center;
+  border-radius: 25px;
+  font-weight: 600;
+  background-color: orange;
+  font-size: 9px;
+}
+.contactbtn:hover {
+  background-color: white;
+  font-size: 10px;
+}
+.links {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.owner {
+  width: 20%;
+}
+.icns {
+  margin: 1px;
+  width: 5%;
+  height: 50%;
+  text-align: center;
+}
+.iconsfooter {
+  height: 100%;
+}
+.iconsfooter:hover {
+  padding-top: 5px;
+}
+.review {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  left: 89.5%;
+  background-color: orange;
+}
+.reviewbtn {
+  height: 10px;
+}
+.review2 {
+  border: none;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  left: 170px;
+}
+.reviewbtn2 {
+  height: 20px;
+}
+.icons:hover {
+  background-color: rgba(0, 0, 0, 0.062);
+}
+.style:hover {
+  box-shadow: 10px 10px 15px black;
+  color: rgba(209, 75, 21, 0.911);
+}
+
+@media (max-width: 400px) {
+  .sec5clients {
+    font-size: 30px;
+  }
+  .sec5lorem {
+    width: 100%;
+    font-size: 15px;
+  }
+  .client1img {
+    width: 50%;
+  }
+  .client1 {
+    width: 45%;
+    height: 100%;
+  }
+  .stars {
+    margin: 9px;
+  }
+
+  .client2img {
+    width: 50%;
+  }
+  .client2 {
+    width: 45%;
+    height: 100%;
+  }
+  .style {
+    font-size: 15px;
+  }
+  .icons {
+    justify-content: center;
+    gap: 15px;
+  }
+  .iconsfooter:hover {
+    padding-top: 5px;
+  }
+  .links {
+    width: 100%;
+    gap: 15px;
+  }
+  .owner {
+    width: 60%;
+  }
+  .contactbtn {
+    align-items: center;
+    height: 20px;
+    width: 50px;
+  }
+  .review2 {
+    left: 1%;
+  }
+  .review {
+    left: 94%;
+  }
+}
