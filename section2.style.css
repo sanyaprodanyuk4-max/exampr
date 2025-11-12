@@ -9,9 +9,17 @@
 .btn:hover {
   height: 55px;
 }
-
+.knowmore a {
+  color: rgb(243, 237, 237);
+}
+.knowmore :nth-child(1):hover {
+  padding: 5px;
+}
+.knowmore a {
+  color: rgb(29, 12, 12);
+  background-color: rgb(243, 237, 237);
+}
 .btnsend:hover {
-  color: black;
   border-radius: 52px;
   transition: 2s ease;
   height: 50%;
@@ -135,6 +143,8 @@ img {
   border-radius: 25px;
   position: relative;
   top: 100px;
+  text-decoration: none;
+  list-style: none;
 }
 
 @media (max-width: 400px) {
@@ -177,6 +187,8 @@ img {
     top: 40px;
     font-size: 8px;
     width: 70px;
-    height: 20px;
+    height: 50px;
   }
 }
+
+
