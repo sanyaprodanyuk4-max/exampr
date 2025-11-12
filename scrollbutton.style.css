@@ -4,6 +4,7 @@
   left: 98%;
   top: 90%;
   text-align: center;
+  z-index: 2;
 }
 
 .scrollup {
