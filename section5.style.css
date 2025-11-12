@@ -222,23 +222,33 @@ button {
   padding-top: 5px;
 }
 .review {
+  z-index: 2;
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
   border-radius: 25px;
   left: 89.5%;
-  background-color: orange;
+  background-color: rgb(196, 192, 187);
+  font-size: 25px;
 }
+
 .reviewbtn {
   height: 10px;
 }
 .review2 {
+  font-size: 25px;
+  background-color: rgb(196, 192, 187);
+
   border: none;
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
   border-radius: 25px;
-  left: 170px;
+  left: 8%;
+}
+.btn1:hover {
+  transition: 1s ease;
+  font-size: 30px;
 }
 .reviewbtn2 {
   height: 20px;
@@ -301,8 +311,13 @@ button {
   }
   .review2 {
     left: 1%;
+    display: none;
   }
   .review {
-    left: 94%;
+    left: 90%;
+    height: 30px;
+    display: none;
   }
 }
+
+
