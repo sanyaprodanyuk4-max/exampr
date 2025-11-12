@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <meta name="description" content="LandingPage" />
+    <meta name="author" content="Prodaniuk Oleksandr" />
+    <meta name="keywords" content="HTML, CSS, Git" />
+
     <link rel="stylesheet" href="header.style.css" />
     <link rel="stylesheet" href="scrollbutton.style.css" />
     <link rel="stylesheet" href="style.css" />
@@ -26,13 +30,30 @@
     />
   </head>
   <body>
+    <div class="loading">
+      <div class="loadgif">
+        <img class="loadpng" src="headerimgs/20-09-10-49_512.gif" />
+      </div>
+    </div>
+
     <div class="updown">
-      <button class="up">
-        <img class="scrollup" src="scrollpng/arrow-31223_640.webp" alt="" />
-      </button>
-      <button class="down">
-        <img class="scrollup2" src="scrollpng/down-254093_640.webp" alt="" />
-      </button>
+      <a href="#section2">
+        <button class="up">
+          <img
+            class="scrollup"
+            src="scrollpng/arrow-31223_640.webp"
+            alt=""
+          /></button
+      ></a>
+
+      <a href="#section5">
+        <button class="down">
+          <img
+            class="scrollup2"
+            src="scrollpng/down-254093_640.webp"
+            alt=""
+          /></button
+      ></a>
     </div>
     <header>
       <div class="logo"></div>
@@ -71,7 +92,7 @@
           <input class="email" type="password" placeholder="Password" />
           <input class="password" type="email" placeholder="Text" />
           <div class="spacebtn">
-            <button class="btn"><p class="btnsend">message</p></button>
+            <button class="btn"><p class="btnsend">message ➣</p></button>
           </div>
         </div>
       </div>
@@ -94,7 +115,9 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
             aperiam. Pariatur dolor molestias ab dignissimos.
           </div>
-          <button class="knowmore">+ Know more</button>
+          <button class="knowmore">
+            <a href="#">+ Know more</a>
+          </button>
         </div>
         <div class="box2">
           <div class="box2img">
@@ -105,7 +128,9 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
             aperiam. Pariatur dolor molestias ab dignissimos.
           </div>
-          <button class="knowmore">+ Know more</button>
+          <button class="knowmore">
+            <a href="#">+ Know more</a>
+          </button>
         </div>
         <div class="box3">
           <div class="box3img">
@@ -116,7 +141,9 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
             aperiam. Pariatur dolor molestias ab dignissimos.
           </div>
-          <button class="knowmore">+ Know more</button>
+          <button class="knowmore">
+            <a href="#">+ Know more</a>
+          </button>
         </div>
         <div class="box4">
           <div class="box4img">
@@ -127,7 +154,9 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
             aperiam. Pariatur dolor molestias ab dignissimos.
           </div>
-          <button class="knowmore">+ Know more</button>
+          <button class="knowmore">
+            <a href="#">+ Know more</a>
+          </button>
         </div>
       </div>
     </div>
@@ -218,23 +247,73 @@
       <div class="section4block">
         <div class="sec4box1">
           <div class="person1">
-            <p class="bedi">Bedi Menson <br />UI/UX Parenta.</p>
+            <div class="card1">
+              <div class="beditxt">
+                <p class="bediskills">
+                  English/French <br />
+                  ---------
+                </p>
+                <p class="bediskills">
+                  Communication <br />
+                  --------------
+                </p>
+                <p class="bediskills">
+                  JS / jQuery / BackEnd <br />
+                  --------------------
+                </p>
+              </div>
+              <p class="bedi">Bedi Menson <br />UI/UX Parenta.</p>
+            </div>
           </div>
         </div>
+
         <div class="sec4box2">
           <div class="person2">
-            <p class="alisa">
-              Alice Main <br />
-              Manager.
-            </p>
+            <div class="card2">
+              <div class="alicetxt">
+                <p class="alskills">
+                  English <br />
+                  ------------
+                </p>
+                <p class="alskills">
+                  Communication <br />
+                  --------
+                </p>
+                <p class="alskills">
+                  UI/UI Design <br />
+                  --------------
+                </p>
+              </div>
+              <p class="alisa">
+                Alice Main <br />
+                Manager.
+              </p>
+            </div>
           </div>
         </div>
         <div class="sec4box3">
           <div class="person3">
-            <p class="clint">
-              Clint Blaine <br />
-              Software Dev.
-            </p>
+            <div class="card3">
+              <div class="ivantxt">
+                <p class="ivanskills">
+                  English / Zakarpatska <br />
+                  ------------
+                </p>
+                <p class="ivanskills">
+                  Communication <br />
+                  ----------------------
+                </p>
+                <p class="ivanskills">
+                  Python /C++ / C# <br />
+                  --------------
+                </p>
+              </div>
+
+              <p class="clint">
+                Ivan Istwood <br />
+                Software Dev.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -255,16 +334,8 @@
             <span>HR Director</span>
           </div>
         </div>
-        <button class="review">
-          <img class="reviewbtn" src="scrollpng/R.png" alt="" />
-        </button>
-        <button class="review2">
-          <img
-            class="reviewbtn2"
-            src="scrollpng/left-arrow-icon-on-transparent-background-free-png.webp"
-            alt=""
-          />
-        </button>
+        <button class="review"><span class="btn1">⇨</span></button>
+        <button class="review2"><span class="btn1">⇦</span></button>
         <div class="client2">
           <div class="client2img"></div>
           <div class="client2text">
@@ -324,9 +395,11 @@
               alt=""
             />
           </div>
-          <div class="owner">© 2015 - 2016 Deviserweb Ltd</div>
+          <div class="owner">© 2024 - 2025 Prodaniuk-Web Ltd</div>
         </div>
       </div>
     </div>
   </body>
 </html>
+
+
