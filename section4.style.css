@@ -31,7 +31,7 @@
   width: 80%;
   display: flex;
   justify-content: space-around;
-
+  position: relative;
   align-items: center;
 }
 .sec4box1 {
@@ -51,6 +51,34 @@
   height: 20%;
   font-size: 10px;
 }
+.card1 {
+  position: relative;
+}
+.card2 {
+  position: relative;
+}
+.card3 {
+  position: relative;
+}
+.beditxt {
+  width: 440px;
+  opacity: 0;
+  position: absolute;
+  top: -450px;
+  left: -120px;
+  border: 1px solid black;
+  background-color: black;
+  transition: 3s;
+  z-index: 10;
+}
+.card1:hover .beditxt {
+  opacity: 0.4;
+}
+.bediskills:hover {
+  background-color: white;
+  color: orangered;
+}
+
 .bedi {
   color: rgb(206, 83, 12);
 }
@@ -60,6 +88,47 @@
 .clint {
   color: rgb(206, 83, 12);
 }
+
+.alicetxt {
+  z-index: 10;
+
+  width: 440px;
+  opacity: 0;
+  position: absolute;
+  top: -450px;
+  left: -150px;
+  border: 1px solid black;
+  background-color: black;
+  transition: 3s;
+}
+.card2:hover .alicetxt {
+  opacity: 0.4;
+}
+.alskills:hover {
+  background-color: white;
+  color: orangered;
+}
+
+.ivantxt {
+  z-index: 10;
+
+  width: 440px;
+  opacity: 0;
+  position: absolute;
+  top: -450px;
+  left: -120px;
+  border: 1px solid black;
+  background-color: black;
+  transition: 3s;
+}
+.card3:hover .ivantxt {
+  opacity: 0.4;
+}
+.ivanskills:hover {
+  background-color: white;
+  color: orangered;
+}
+
 .person2 {
   display: flex;
   justify-content: center;
@@ -76,6 +145,7 @@
   height: 20%;
   font-size: 10px;
 }
+
 .sec4box2 {
   width: 30%;
   display: flex;
@@ -150,3 +220,5 @@
     height: 200px;
   }
 }
+
+
