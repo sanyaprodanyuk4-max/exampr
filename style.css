@@ -5,7 +5,10 @@ body {
   background-color: rgba(165, 159, 159, 0.158);
   cursor: url("scrollpng/svgviewer-output.svg") 0 0, auto;
 }
-
+::selection {
+  background-color: orange;
+  color: white;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -52,3 +55,4 @@ html {
     display: none;
   }
 }
+
