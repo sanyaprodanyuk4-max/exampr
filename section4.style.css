@@ -1,9 +1,5 @@
 
 
-
-
-
-
 .section4 {
   height: 100%;
   display: flex;
@@ -171,6 +167,50 @@
   align-items: flex-end;
   background-size: cover;
 }
+
+@media (max-width: 400px) {
+  .alicetxt {
+    height: 110px;
+    width: 90px;
+    position: absolute;
+    left: -14%;
+    opacity: 1;
+  }
+  .alskills {
+    font-size: 10px;
+    color: red;
+  }
+}
+@media (max-width: 400px) {
+  .beditxt {
+    top: -233.3px;
+    height: 110px;
+    width: 90px;
+    position: absolute;
+    left: -1%;
+    opacity: 1;
+  }
+  .bediskills {
+    font-size: 10px;
+    color: red;
+  }
+}
+
+@media (max-width: 400px) {
+  .ivantxt {
+    opacity: 1;
+
+    height: 110px;
+    width: 90px;
+    position: absolute;
+    left: -1%;
+  }
+  .ivanskills {
+    font-size: 10px;
+    color: red;
+  }
+}
+
 @media (max-width: 400px) {
   .section4text {
     font-size: 27px;
@@ -226,3 +266,4 @@
     height: 200px;
   }
 }
+
